@@ -1,5 +1,4 @@
-/* File:     p3.c
- * Author:   Courtni Wong, 20228575
+/* Author:   Courtni Wong
  * Purpose:  Implement Dijkstra's algorithm for solving the single-source 
  *           shortest path problem: find the length of the shortest path
  *           between a specified vertex and all other vertices in a directed 
@@ -10,8 +9,8 @@
  * Output:   A list showing the cost of the shortest path
  *           from vertex 0 to every other vertex in the graph.
  *
- * Compile:  mpicc -g -Wall -o p3 p3.c
- * Run:      mpiexec -n <p> ./p3
+ * Compile:  mpicc -g -Wall -o dijkstra.c dijkstra.c.c
+ * Run:      mpiexec -n <p> ./dijkstra.c
  *           For large matrices, put the matrix into a file with n as
  *           the first line and run with ./dijkstra < large_matrix
  */
